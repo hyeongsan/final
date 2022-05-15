@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+
+
+.page-header{
+	padding-top:10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.font-s {
+  font-size: 0.8rem;
+}
+
+.center-content {
+  justify-content: center;
+}
+
+.hr-style {
+  height: 1px;
+  background: navy;
+  margin: 10px 0px;
+}
+
+.bck-img {
+  background: url("https://media.istockphoto.com/vectors/three-female-friends-sitting-in-cafe-at-lunch-and-talking-vector-id1216320538?k=20&m=1216320538&s=612x612&w=0&h=-NX894FRMEMBR0LdoDeclsBSKZ5K7mv04iRp5qNq_Ag=");
+  background-size: cover;
+  width: 100%;
+}
+
+.form-horizontal{
+	padding-top: 10px;
+}
+
+.form-style { 
+  width: 30%;
+  padding: 20px;
+  margin:0 auto;
+  border-radius:10px;
+}
+
+.addBtnDiv{
+	text-align: center;
+ } 
+
+.addBtn{	
+	margin-top: 30px;  
+    border-radius: 10px;
+    font-weight:bold;
+    background-color: #69a8ff;
+}
+
+.addBtn:hover{
+	background-color:rgb(199 199 199);;
+}
+
+.mar-15b {
+  margin-bottom: 15px;
+}
+
+.block {
+  display: block;
+}
+
+[type="text"],
+.select-style {
+    width: 100%;    
+    margin-top: 3px; 
+    border: none;
+    padding: 15px 20px;
+    border-radius: 7px;
+    background: rgb(232 240 254);
+}
+
+[type="number"],
+.select-style {
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    border: 1px solid #a5a5a5;
+}
+
+.bg-green {
+  background: #a8d2a2;
+}
+/*
+@media (min-width: 951px) {
+  .form-style {
+    width: 40%;
+  }
+}
+
+@media (max-width: 950px) {
+  .form-style {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .form-style {
+    width: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+  .form-style {
+    width: 100%;
+  }
+}
+*/
